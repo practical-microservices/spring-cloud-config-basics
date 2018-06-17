@@ -8,4 +8,4 @@ spring:
       uri: http://localhost:8888
       # make app startup fail if it can't connect to config server rather than start
       # with no configs
-      fail-fast: true
+      fail-fast: false
