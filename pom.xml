@@ -40,6 +40,7 @@
     <modules>
         <module>config-server</module>
         <module>greeter</module>
+        <module>billboard</module>
     </modules>
 
     <repositories>
