@@ -39,6 +39,7 @@
 
     <modules>
         <module>config-server</module>
+        <module>greeter</module>
     </modules>
 
     <repositories>
