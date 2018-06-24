@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "billlboard", "billlboard-dotnetcore\billlboard.csproj", "{5DCBE062-333A-4B82-BF36-AAE7E3D6A085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "billlboard", "billlboard\billlboard.csproj", "{5DCBE062-333A-4B82-BF36-AAE7E3D6A085}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "greeter", "greeter-dotnetcore\greeter.csproj", "{C2C0E64A-071E-4F89-B592-9FE6125D815C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "greeter", "greeter\greeter.csproj", "{C2C0E64A-071E-4F89-B592-9FE6125D815C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
