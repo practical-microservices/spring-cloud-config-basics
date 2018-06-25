@@ -11,7 +11,10 @@
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+/.idea
+**/.idea/**/*.iml
+**/.idea/**/contentModel.xml
+**/.idea/**/modules.xml
 *.iws
 *.iml
 *.ipr
@@ -25,7 +28,6 @@
 /.nb-gradle/
 
 **/*.iml
-**/.idea
 **/build
 **/target
 **/.gradle
@@ -283,7 +285,6 @@ paket-files/
 .fake/
 
 # JetBrains Rider
-.idea/
 *.sln.iml
 
 # CodeRush
