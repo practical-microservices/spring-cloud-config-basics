@@ -2,7 +2,14 @@
 
 ### Overview
 
-This sample shows off how one can use Spring Cloud Config Server can externalize configuration of each application. It also showcases ways that one can create configurations that target different environments and overriding configuration values based on application profiles. 
+This sample shows off how one can use Spring Cloud Config Server can externalize configuration of each application. 
+It also showcases ways that one can create configurations that target different environments and overriding 
+configuration values based on application profiles. 
+
+*Spring Boot 2.4 changed how bootstrap configuration works, the billboard app uses Spring Boot 2.4+ approach to
+configuration, and the greeter app uses the Spring Boot 2.3 approach by turning on legacy processing mode see*
+* [Changes Spring Boot 2.4 introduced](https://www.youtube.com/watch?v=lgyO9C9zdrg&t=1489s)
+* [Config file processing in Spring Boot 2.4](https://spring.io/blog/2020/08/14/config-file-processing-in-spring-boot-2-4)
 
 ### Run the Demo
 

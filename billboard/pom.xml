@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>billboard</name>
-	<description>Billobard demo app</description>
+	<description>billboard demo app</description>
 
 	<parent>
 		<groupId>com.example</groupId>
