@@ -1,4 +1,3 @@
-
 # set server to use the conventional port that the config server is expected to run on
 server:
   port: 8888
@@ -8,10 +7,12 @@ spring:
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/practical-microservices/spring-cloud-config-basics-repo.git
-  application:
-    name: greeter
+        composite:
+          - type: git
+            uri: https://github.com/practical-microservices/spring-cloud-config-basics-repo.git
+          - type: git
+            uri: https://github.com/practical-microservices/spring-cloud-config-basics-repo-sensitive
+
 
 management:
   endpoints:
