@@ -40,9 +40,13 @@ public class GreetingController {
 
 // Deploy to ASA-E
 
-// az spring  application-configuration-service git repo add -n demo-asa -g demo --label main --uri https://github.com/practical-microservices/spring-cloud-config-basics-repo.git
-// az spring  application-configuration-service bind -g demo -s demo-asa --app greeter
+// az spring  application-configuration-service git repo add -s demo-asa -g demo -n basics --patterns greeter --label main --uri https://github.com/practical-microservices/spring-cloud-config-basics-repo.git
+// az spring  application-configuration-service git repo add -s demo-asa -g demo -n sensitive --patterns greeter --label main --uri https://github.com/practical-microservices/spring-cloud-config-basics-repo-sensitive.git
+
 
 // az spring app create -n greeter -s demo-asa -g demo --assign-endpoint true
+// az spring  application-configuration-service bind -g demo -s demo-asa --app greeter
+// az spring app update -n greeter -s demo-asa -g demo --config-file-patterns greeter
 // az spring app deploy -n greeter -s demo-asa -g demo  --artifact-path greeter/target/greeter-0.0.1-SNAPSHOT.jar
 // az spring app logs -n greeter -s demo-asa -g demo
+
